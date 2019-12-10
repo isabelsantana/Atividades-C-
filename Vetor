@@ -1,0 +1,16 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+
+    int[] vetor = new int[3]; 
+                            
+    for(int x = 0; x < 3; x++){
+    vetor[x] = int.Parse(Console.ReadLine());
+
+    }             
+    for(int y = 0; y < 3; y++){
+      Console.WriteLine(vetor[y]);
+    } 
+  }
+}
